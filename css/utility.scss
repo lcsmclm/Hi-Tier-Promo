@@ -1,0 +1,124 @@
+.hidden {
+position:absolute;
+left:-10000px;
+top:auto;
+width:1px;
+height:1px;
+overflow:hidden;
+}
+.core-btn{
+  a{
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #161616;
+    border: 1px solid #161616;
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+.core-btn.white{
+  a{
+    color: #fff;
+    padding: 10px 15px;
+    background-color: #161616;
+    border: 1px solid #fff;
+    text-decoration: none;
+    &:hover{
+      text-decoration: none;
+    }
+  }
+}
+
+
+#features .init > #display-1{
+  animation-name: slideRight1;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+#features .init > #display-2{
+  animation-name: slideRight2;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 0.5s;
+  animation-timing-function: ease-out;
+}
+#features .init > #display-3{
+  animation-name: slideRight3;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-delay: 1s;
+  animation-timing-function: ease-out;
+}
+
+#individualized .init > #individualized-1{
+  animation-name: slideDown;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+
+#individualized .init > #individualized-2{
+  animation-name: slideUp;
+  animation-duration: 1s;
+  animation-fill-mode: forwards;
+  animation-timing-function: ease-out;
+}
+/**Invidualized Animations**/
+@keyframes slideDown{
+  0%{
+    top: -750px;
+    opacity: 0;
+  }
+  100%{
+    top: -40%;
+    opacity: 1;
+  }
+}
+
+@keyframes slideUp{
+  0%{
+    bottom: -750px;
+    opacity: 0;
+  }
+  100%{
+    // bottom: -250px;
+    bottom: -40%;
+    opacity: 1;
+  }
+}
+
+
+/**Featured Animations**/
+@keyframes slideRight1{
+  0%{
+    left: 200px;
+    opacity: 0;
+  }
+  100%{
+    left: 0px;
+    opacity: 1;
+  }
+}
+@keyframes slideRight2{
+  0%{
+    left: 250px;
+    opacity: 0;
+  }
+  100%{
+    left: 50px;
+    opacity: 1;
+  }
+}
+@keyframes slideRight3{
+  0%{
+    left: 300px;
+    opacity: 0;
+  }
+  100%{
+    left: 100px;
+    opacity: 1;
+  }
+}

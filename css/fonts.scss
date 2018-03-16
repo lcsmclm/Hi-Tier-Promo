@@ -1,0 +1,36 @@
+@font-face {
+    font-family: 'arimobold';
+    src: url('../includes/fonts/arimo-bold-webfont.woff2') format('woff2'),
+         url('../includes/fonts/arimo-bold-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arimobold_italic';
+    src: url('../includes/fonts/arimo-bolditalic-webfont.woff2') format('woff2'),
+         url('../includes/fonts/arimo-bolditalic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arimoitalic';
+    src: url('../includes/fonts/arimo-italic-webfont.woff2') format('woff2'),
+         url('../includes/fonts/arimo-italic-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+
+}
+@font-face {
+    font-family: 'arimoregular';
+    src: url('../includes/fonts/arimo-regular-webfont.woff2') format('woff2'),
+         url('../includes/fonts/arimo-regular-webfont.woff') format('woff');
+    font-weight: normal;
+    font-style: normal;
+}
+$font-stack:  'arimoregular', Helvetica, Arial;
+$reg: 'arimoregular';
+$bold : 'arimobold';
+$italics: 'arimoitalic';
+$bold-italics: 'arimo-bold_italic';
